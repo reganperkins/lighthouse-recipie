@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 }
-h1,h2,h3,li,span {
+h1,h2,h3,li,span, button {
 	font-family: Lato, sans-serif;
 }
 h1 {
@@ -24,11 +24,15 @@ header {
 	background-color: #ffffff;
 }
 ul {
-	list-style-type: disc;
+	list-style-type: none;
 }
 span {
 	line-height: 23px;
 }
+input {
+    margin-right: 10px;
+}
+
 
 #bigwrapper {
 	margin: 0 auto;
@@ -143,6 +147,9 @@ span {
 	float: left;
 	width: 440px;
 	margin-top: 20px;
+}
+.strike {
+    text-decoration: line-through;
 }
 
 /* ------------------

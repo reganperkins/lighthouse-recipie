@@ -5,6 +5,8 @@
 	<title>Recipe: Pulled Lamb Sandwich</title>
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js" ></script>
 </head>
 <body>
 	<div id="bigwrapper">
@@ -17,7 +19,7 @@
 				<h1>Pulled Lamb Sandwich With Caramelized Onions and Chipotle Garlic Aioli</h1>
 			</div>
 
-			<div class="left">
+			<div id="hide">
 					<ul class="ti-grid">
 					    <li>
 					        <div class="ti-item ti-img-1">
@@ -37,24 +39,24 @@
 				<article>
 					<h3>For Slow Cooker Pulled Lamb:</h3>
 					<ul>
-						<li>1 1/2 - 2 lbs boneless leg of lamb</li>
-						<li>3/4 chicken stock</li>
-						<li>1 1/2 teaspoon rosemary</li>
-						<li>1 tablespoon olive oil</li>
-						<li>2 cloves of garlic (smashed)</li>
-						<li>1 1/2 tablespoon balsamic vinegar</li>
-						<li>1 teaspoon cracked black pepper</li>
-						<li>1/2 teaspoon red pepper flakes</li>
+						<li class="list"><input type="checkbox">1 1/2 - 2 lbs boneless leg of lamb</input></li>
+						<li class="list"><input type="checkbox">3/4 chicken stock</input></li>
+						<li class="list"><input type="checkbox">1 1/2 teaspoon rosemary</input></li>
+						<li class="list"><input type="checkbox">1 tablespoon olive oil</input></li>
+						<li class="list"><input type="checkbox">2 cloves of garlic (smashed)</input></li>
+						<li class="list"><input type="checkbox">1 1/2 tablespoon balsamic vinegar</input></li>
+						<li class="list"><input type="checkbox">1 teaspoon cracked black pepper</input></li>
+						<li class="list"><input type="checkbox">1/2 teaspoon red pepper flakes</input></li>
 					</ul>
 				</article>
 
 				<article>
 					<h3>For Caramelized Onion: (Slow Cooker version in "The Book")</h3>
 					<ul>
-						<li>4 cups thinly sliced</li>
-						<li>1 1/2 tablespoons olive oil (or butter)</li>
-						<li>1 1/2 teaspoon salt</li>
-						<li>1 1/2 teaspoons sugar</li>
+						<li class="list"><input type="checkbox">4 cups thinly sliced</input></li>
+						<li class="list"><input type="checkbox">1 1/2 tablespoons olive oil (or butter)</input></li>
+						<li class="list"><input type="checkbox">1 1/2 teaspoon salt</input></li>
+						<li class="list"><input type="checkbox">1 1/2 teaspoons sugar</input></li>
 					</ul>
 				</article>
 
@@ -63,11 +65,11 @@
 					<span>I followed this recipe for garlic aioli on David Lebovitz's blog, tweaked just a little. Just omit the garlic from this recipe and add chipotle garlic paste instead.</span>
 
 					<ul>
-						<li>2 tablespoons Chipotle and Roasted Garlic Paste</li>
-						<li>1/2 tsp salt</li>
-						<li>1 large egg yolk, at room temperature</li>
-						<li>1/2 cup (250ml) extra-virgin olive oil</li>
-						<li>1/2 cup pure olive oil</li>
+						<li class="list"><input type="checkbox">2 tablespoons Chipotle and Roasted Garlic Paste</input></li>
+						<li class="list"><input type="checkbox">1/2 tsp salt</input></li>
+						<li class="list"><input type="checkbox">1 large egg yolk, at room temperature</input></li>
+						<li class="list"><input type="checkbox">1/2 cup (250ml) extra-virgin olive oil</input></li>
+						<li class="list"><input type="checkbox">1/2 cup pure olive oil</input></li>
 					</ul>
 				</article>
 				
@@ -84,7 +86,7 @@
 					<li>Sliced avacado</li>
 				</ul>
 				
-				<span class="print">+ print ingredients</span>
+				<button class="print">+ print ingredients</button>
 			</section>
 
 			<img src="images/img2.jpg" class="center img-hor" />
@@ -122,7 +124,7 @@
 					
 					<span>On a bed of greens over sliced baguette put some pulled leg of lamb, add caramelized onion, tomato and avacado. Smother some aioli on the other half of the baguette. Place it on top and enjoy with a glass of cold beer and your honey!</span>
 				</article>
-				<span class="print">+ print ingredients</span>
+				<button class="print">+ print ingredients</button>
 			</section>
 
 			<img src="images/img3.jpg" class="center img-hor" />
@@ -145,7 +147,7 @@
 					</ul>
 				</div>
 
-				<div class="bio">
+				<div class="bio hide">
 					<span class="text-bio">I was born in a small town of central India and grew up in a few more small towns of India. Then I met this guy whom I now call husband, married him and moved to the US . Later came this angel in our lives who has been keeping us on our toes ever since and making our lives worth every breath! When I'm not running behind her then I'm either in my kitchen developing, testing and retesting a recipe or I'm playing around with my camera in my garage turned studio. Three things made me this awesome cook (sarcasm!) that I am today.. circumstances, no help and hunger!! </span>
 				</div>
 				<div class="clear"></div>
@@ -157,11 +159,9 @@
 
 			</section>	
 
-
-
-
 		</div>
 
 	</div>
+	
 </body>
 </html>
