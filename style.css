@@ -32,6 +32,9 @@ span {
 input {
     margin-right: 10px;
 }
+img {
+    min-width: 250px;
+}
 
 
 #bigwrapper {
@@ -69,6 +72,7 @@ input {
 	padding-bottom: 70px;
 	padding-right: 70px;
 	padding-left: 70px;
+    min-width: 250px;
 }
 .method {
 	background-color: #FAFAFA;
@@ -76,6 +80,7 @@ input {
 	padding-bottom: 70px;
 	padding-right: 70px;
 	padding-left: 70px;
+    min-width: 250px;
 }
 
 .print {
@@ -133,6 +138,8 @@ input {
 }
 #title {
 	box-shadow: 5px 5px 3px #f6f6f6;
+
+    min-width: 250px;
 }
 .left {
 	float: left;
@@ -152,7 +159,8 @@ input {
 .bio {
 	margin-left: 40px;
 	float: left;
-	width: 440px;
+	max-width: 440px;
+    min-width: 250px;
 	margin-top: 20px;
 }
 .strike {
@@ -276,8 +284,10 @@ input {
     clear: both;
 }
 .ti-grid li {
-    width: 720px;
+    width: 100%;
     height: 500px;
+
+    min-width: 250px;
    
 }
 .ti-item {
